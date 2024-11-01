@@ -1,0 +1,186 @@
+body {
+	font-size: 62.5%; /* Resets 1em to 10px ;*/
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	/*background: #d5d6d7 url('images/kubrickbgcolor.jpg');*/
+	color: #000000;
+	margin: 0; 
+	background-color:	#FFFFFF;
+
+}
+
+#header {
+	background: #FFFFFF url('wpr-images/wpr-logo.gif') no-repeat ;
+	margin-left: 10px;
+	height: 28px;
+}
+
+#header p {
+	float: right;
+	margin-right: 10px; 
+	padding-top: 3px;
+	display: inline;
+	
+}
+
+#middle .midleft ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	margin-left: 10px;
+}
+
+#middle .midleft li{
+	padding-left: 10px;
+	background-image: url(wpr-images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 0 .5em;
+	margin-bottom: 4px;
+	font-size: 13px;
+
+}
+
+#middle .midleft li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+#middle .midleft li a:hover {
+	color: #0066FF;
+	text-decoration: underline;
+	
+}
+
+
+#middle table{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+		
+}
+
+#middle table td{
+	vertical-align: top;
+	margin: 0px;
+}
+
+img {
+	border: 0px;
+	padding: 10px;
+}
+
+#middle .midleft {
+	width: 170px;	
+	
+}
+
+#middle .midcontent {
+	padding-right: 100px;
+}
+
+#middle .midcontent ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	margin-left: 10px;
+}
+
+#middle .midcontent .storyli {
+	font-size: 15px;
+	width: 100%;
+	border-bottom: solid #FAD163 2px;
+	margin-bottom: 15px;
+	 
+}
+
+#middle .midcontent li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#middle .midcontent li a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	
+}
+
+#middle .midconttitle {
+	background-color: #FFFFFF;
+	color:#999999;
+	font-size:95%;
+	margin:0pt;
+	padding:0.1em 5pt;
+	border-top: solid #FAD163 2px ;
+	border-bottom: solid #E0ECFF 2px ;
+}
+
+#middle .midcontdate{
+	background-color: #F0F0F0;
+	color: #333333;
+	font-size:80%;
+	text-align:left;
+	padding:0.2em 5pt;
+
+}
+
+#middle .midcontstory {
+	padding:3px 5pt 5px 5px;
+	line-height: 1.5em;
+}
+
+
+
+
+#footer {
+	background-color: #0066FF;
+	color: #FFFFFF;
+	padding: 7px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+/*
+body{
+	background-color:	#FFFFFF;
+	background-image:	url('wpr-images/bg.jpg');
+	background-repeat:	no-repeat;
+}
+*/			
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	text-align:center;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000099;
+	
+	font-weight: bold;
+	background-color: #000099;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+
+	color: #DDD;
+}
+
+

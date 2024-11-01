@@ -1,0 +1,6 @@
+# This is the list of feeds you want to aggregate
+# format :
+# feed_url<--->blog_name<--->blog_url 
+# lines started with # are comments.
+http://rss.slashdot.org/Slashdot/slashdot<--->Slashdot<--->http://slashdot.org/
+http://news.ycombinator.com/rss<--->HackerNews<--->http://news.ycombinator.com/
